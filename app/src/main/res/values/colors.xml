@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/blue_grey</color>
+    <color name="colorPrimaryDark">#2a363d</color>
+    <color name="colorAccent">#009a9a</color>
+    <color name="bg_gradient_start">#31244e</color>
+    <color name="bg_gradient_end">#6b394c</color>
+
+    <color name="Red">#D32F2F</color>
+    <color name="darkRed">#B71C1C
+    </color>
+    <color name="blue_grey">#37474F</color>
+
+
+    <color name="litered">#FFEBEE</color>
+    <color name="green">#009688</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white_greyish">#EEEEEE</color>
+    <color name="grey">#9E9E9E</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="orange">#FF9100</color>
+    <color name="dark_orange">#EF6C00</color>
+    <color name="dark_grey">#424242</color>
+    <color name="pink">#EC407A</color>
+    <color name="offWhite">#BDBDBD</color>
+
+    <color name="graylight">#fafafa</color>
+    <color name="startblue">#31435b</color>
+    <color name="endblue">#0bcce6</color>
+    <color name="colorhint">#d9e5f3</color>
+
+    <color name="colorsmallimage">#009a9b</color>
+
+</resources>

@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "957205430748",
+    "firebase_url": "https://email-system-demo.firebaseio.com",
+    "project_id": "email-system-demo",
+    "storage_bucket": "email-system-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957205430748:android:78ffa9237fd99c89",
+        "android_client_info": {
+          "package_name": "com.example.abanoub.emailsystemdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957205430748-75lc87f6erpe1j6anf9hqsu4vq4aoa6i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7CZ23IPonhOv0_fZl5fbpM7B_zaXmJbA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957205430748:android:dcfb90435b946f2f",
+        "android_client_info": {
+          "package_name": "com.example.abanoub.voicebasedemailsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957205430748-75lc87f6erpe1j6anf9hqsu4vq4aoa6i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7CZ23IPonhOv0_fZl5fbpM7B_zaXmJbA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="favorites page"
+    android:orientation="vertical"
+    tools:context="com.example.abanoub.voicebasedemailsystem.FavoritesFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/emptyLinear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_inbox_gray_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="There is no mail here."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="#757575" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/EmailsListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/fab_margin">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/composeEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/mic"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="@dimen/fab2_margin"
+                android:layout_marginRight="@dimen/fab_margin"
+                android:contentDescription="compose email button"
+                android:background="@drawable/gradian_1"
+                android:clickable="true"
+                android:src="@drawable/pencil" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/mic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/fab_margin"
+                android:contentDescription="mic to give commands and navigating between pages"
+                android:background="@drawable/gradian_1"
+                android:clickable="true"
+                android:src="@drawable/mic" />
+
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

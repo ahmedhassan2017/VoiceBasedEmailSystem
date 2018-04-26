@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="signing up step 3 page"
+    android:orientation="vertical"
+    tools:context="com.example.abanoub.voicebasedemailsystem.SignUp3Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="choose your country"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Country"
+                    android:textColor="#000" />
+
+                <Spinner
+                    android:id="@+id/countrySpinner"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:spinnerMode="dropdown"
+                    android:textColor="#d9e5f3" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/phoneNumberED"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="enter your phone number"
+                    android:hint="Phone number"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:textColorHint="@color/black" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="This won't make your number visible to others"
+            android:text="This won't make your number visible to others"
+            android:textColor="#000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_below="@id/linear1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="secret question"
+            android:text="Secret Question"
+            android:textColor="#000" />
+
+        <Spinner
+            android:id="@+id/secretQuestionSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:contentDescription="choose your secret question" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Secret Answer"
+            android:contentDescription="secret answer"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/secretAnswerED"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="enter your secret answer"
+            android:layout_marginBottom="40dp"
+            android:textColor="#000"
+            android:inputType="text"
+            android:maxLines="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_below="@id/linear1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/skip_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/gradian_1"
+            android:gravity="center"
+            android:letterSpacing="0.2"
+            android:text="Skip"
+            android:contentDescription="skip button"
+            android:textColor="#d9e5f3"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/finish_btn"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/gradian_1"
+            android:gravity="center"
+            android:letterSpacing="0.2"
+            android:text="Finish"
+            android:contentDescription="finish button"
+            android:textColor="#d9e5f3"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
